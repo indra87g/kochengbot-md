@@ -1,32 +1,30 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/Arifzyn19/Akane/main/storage/media/thumbnail.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
-</p>
-
-<h1 align="center">Akane - Bot</h1>
+<h1 align="center">KochengBot</h1>
 
 <p align="center">
-    <a href="#"><img src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Chat With Me-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-<a href="https://github.com/Arifzyn19"><img title="Author" src="https://img.shields.io/badge/AUTHOR-Arifzyn19-green.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/indra87g"><img title="Author" src="https://img.shields.io/badge/AUTHOR-indra87g-green.svg?style=for-the-badge&logo=github"></a>
+
+[Read documentation in english](docs/README-en.md)
 
 ## Konfigurasi ⚙️
 
 Mengedit nomor owner & nama bot di [`config.js`](https://github.com/Arifzyn19/Akane/blob/main/storage/config.js)
 
-## Untuk user windows/rdp 💻
+## Untuk Windows
 
-Instal alat ini terlebih dahulu sebelum menjalankan skrip
+Install alat ini terlebih dahulu sebelum menjalankan skrip
 
 - Download And Install Git [`Click Here`](https://git-scm.com/downloads)
 - Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
 - Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Jangan Lupa Tambahkan FFmpeg ke variabel lingkungan PATH**)
 - Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
-## Untuk user termux/ubuntu/ssh
+## Untuk Linux
 
 - apt update && apt upgrade -y
 - apt install nodejs imagemagick ffmpeg -y
