@@ -11,6 +11,8 @@ RUN apt-get update && \
     imagemagick \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+    npm install
+    npm start / node system/index.js
 
 # Tambahkan konfigurasi lain jika diperlukan
 # Misalnya, jika Anda ingin menginstal dependensi npm global, tambahkan baris berikut
@@ -23,7 +25,7 @@ WORKDIR /app
 COPY . .
 
 # Jalankan perintah default (jika ada)
-CMD ["npm", "install"]
+CMD []
 
 # Expose port jika diperlukan
 # EXPOSE 3000
